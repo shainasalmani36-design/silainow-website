@@ -1,0 +1,17 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Generated build output
+dist/
+build/
+out/
+
+# Operating system files
+.DS_Store
+Thumbs.db
